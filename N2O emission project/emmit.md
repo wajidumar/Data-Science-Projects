@@ -1,6 +1,6 @@
 # **Expected increase in Nitrous oxide emission**
 
-Nitrous oxide (N2O) is a potent greehouse gas. It is considered a third most important greenhous gas after methane and carbon dioxide. It is considered as one of the biggest human related threat to the ozone layer. Agricultural fertilizer applications and dairy farming are the major source of N2O emission. Nearly a 30% increase in the emission of N2O was noted in the past four decades. Nitrous oxide posses 300 times higher atmosphere warming potential than CO2.
+Nitrous oxide (N2O) is a potent greehouse gas. It is considered a third most important greenhous gas after methane and carbon dioxide. It is one of the biggest human related threat to the ozone layer. Agricultural fertilizer applications and dairy farming are the major sources of N2O emission. Nearly a 30% increase in the emission of N2O was noted in the past four decades. Nitrous oxide posses 300 times higher atmosphere warming potential than CO2.
 
 Based on the avaialable data we can predict the increase or decrease in the emission of N2O. There is an ample amount of data stored in the [FAO Database](https://www.fao.org/faostat/en/#data)
 
@@ -15,7 +15,7 @@ import pandas as pd
 ```
 
 The nitrous oxide emission data from FAO database was imported. The data include global N2O emission values from 1961-2019 from agricultural soils./
-The data is imported from the CSV file using the codes below.
+The data was imported from the CSV file using the codes below.
 
 
 ```python
@@ -139,7 +139,7 @@ X=df[["Year"]]
 y=df["Value"]
 ```
 
-The model from the Scikit-learn library is fitted on the variables
+The model from the Scikit-learn library was fitted on the variables
 
 
 ```python
@@ -147,7 +147,7 @@ from sklearn.linear_model import LinearRegression
 model1=LinearRegression().fit(X,y)
 ```
 
-To evaluate the model efficiency/accuracy/fitness, the data is divided into training and testing data. The training data will be used to train the model and the prediction will be carried out on test data.
+To evaluate the model efficiency/accuracy/fitness, the data was divided into training and testing data. The training data was used to train the model and the prediction was carried out on the test data.
 
 
 ```python
@@ -155,7 +155,7 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test=train_test_split(X,y, test_size=0.2, random_state=0)
 ```
 
-The model is trained using training data using the code given below
+The model was trained using training data using the code given below
 
 
 ```python
@@ -163,7 +163,7 @@ from sklearn.linear_model import LinearRegression
 model=LinearRegression().fit(X_train, y_train)
 ```
 
-Prediction is carried out on test data to see the efficiency of the model and the R2 metrics is used to evaluate the model fitness.
+Prediction was carried out on test data to see the efficiency of the model and the R2 metrics is used to evaluate the model fitness.
 
 
 ```python
@@ -202,7 +202,7 @@ x=[[2020], [2021],[2022],[2023],[2024],[2025],[2026],[2027],[2028], [2029],[2030
 [2038],[2039],[2040],[2041],[2042],[2043],[2044],[2045],[2046],[2047],[2048],[2049],[2050]]
 ```
 
-The array of generated input variables is feed to the model prediction function below and we can see the expected values as a output.
+The array of generated input variables was fed to the model prediction function below and we can see the expected values as a output.
 
 
 ```python
@@ -224,7 +224,7 @@ exp1
 
 
 
-The predicted values are in the form of array, so to convert an array to a dataFrame, we used the function given below. The converted data frame is then exported to a CSV file for furthur use.
+The predicted values were in the form of array, so to convert an array to a dataFrame, we used the function given below. The converted data frame was then exported to a CSV file for furthur use.
 
 
 ```python
