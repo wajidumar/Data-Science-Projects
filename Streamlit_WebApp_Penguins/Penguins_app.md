@@ -1,4 +1,4 @@
-   [# **Penguins Classification Application**](https://share.streamlit.io/wajidumar/streamlit_penguins/main/Penguins_app.py)
+  # [**Penguins Classification Application**](https://share.streamlit.io/wajidumar/streamlit_penguins/main/Penguins_app.py)\
 ***Streamlit*** library is used to develope a web application for penguins classification using ***Machine Learning*** algorithms.
 
 Before starting you have to install the streamlit library using the command ***pip install streamlit*** and after installation **import** ***streamlit*** as **st**. 
