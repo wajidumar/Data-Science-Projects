@@ -1,0 +1,35 @@
+﻿factor,crop,soil,country
+0.03,Maize,Clay loam,Northeast China
+0.05,Cotton,Sand,Northwest China
+0.075,Silage corn,Silt loam,Pacific Northwest
+0.15,Rice,Clay loam,South China
+0.17,Spring barley,Sandy loam,Denmark
+0.12,None,Silty-clay,Italy
+0.18,Wheat/Maize,Sandy loam,South China
+0.23,Almond,Sandy loam,California
+0.25,Ryegrass,Sandy clay loam,United Kingdom
+0.24,Rice,Sandy loam,Japan
+0.26,Potato/Corn/Wheat/Sugar beat,Andisol,Japan
+0.3,Wheat/Rice,Andisol,Japan/South China
+0.4,Wheat,Silt,France
+0.48,Wheat/Maize/onion,Cambisol,North China
+0.53,Cereals/Pulses,Sandy loam,Northwest India
+0.43,Timothy grass,Sandy loam,Eastern Canada
+0.68,None,Sandy loam,Northern Germany
+0.7,Barley,Unspecified,Western Canada
+0.82,Barley,Cambisol,Central Spain
+1.46,Cotton,Fulvisol,Xinjiang
+1.49,Maize,Sandy loam,Central Spain
+1.6,Maize/Alfalfa,Silt loam,Pennsylvania
+1.8,Maize/None,Sandy loam,Central Spain
+1.6,Spring barley,Sandy loam,Eastern Canada
+1.7,Various,Various soils,Eastern Canada
+1.9,Vegetables,Silty clay loam,Southeastern China
+2.07,Potato/Corn/Wheat/Sugar beat,Clay loam,Central Spain
+3.24,Corn,Silt loam,Northwestern Italy
+3.3,Komatsuna,Sand,Japan
+3.05,None,Sand,Netherlands
+3.45,Various,Various,United Kingdom
+4.5,Maize,Loam,Northern United States
+5.24,Corn,"Clay, loam",Eastern Canada
+8.2,Corn,Andosol,Japan
