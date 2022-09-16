@@ -103,7 +103,7 @@ p2<-ggplot(w1, aes(trt,mean_snp, fill=trt))+
   scale_fill_manual(values = met.brewer("Juarez", 10))
 p2
 ```
-![yield](sn/p.png)
+![yield](snp.png)
 ```{r}
 ###GW
 
