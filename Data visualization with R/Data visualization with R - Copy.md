@@ -164,6 +164,8 @@ ggcorrplot(c,  method="square", hc.order = FALSE,
            legend.title = "Correlation")
 ```
 ![image](corr1.png)
+
+>## Further customization of correlation plots can be done by below codes
 ```{r}
 corrplot(c, order = "hclust", addrect = 4)
 
